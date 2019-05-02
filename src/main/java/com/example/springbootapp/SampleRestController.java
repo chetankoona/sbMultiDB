@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Value;
 @RestController
 public class SampleRestController {
 	
-	@Value("propertyone")
+	@Value("${propertyone}")
 	private String propertyone;
 	
 	@RequestMapping("/")
