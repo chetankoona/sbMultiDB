@@ -1,10 +1,13 @@
-package com.example.springbootapp;
+package com.example.springbootapp.service;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.example.springbootapp.fact.entity.Run;
+import com.example.springbootapp.fact.repository.RunRepository;
 
 @Service
 public class RunService {
